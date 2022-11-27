@@ -1,0 +1,36 @@
+{
+   "browser_action": {
+      "default_icon": {
+         "19": "images/19x19.png",
+         "38": "images/38x38.png"
+      },
+      "default_title": "微信"
+   },
+   "commands": {
+      "toggle-sidebar": {
+         "description": "toggle sidebar",
+         "suggested_key": {
+            "windows": "F4"
+         }
+      }
+   },
+   "description": "QQ浏览器用户独享微信浏览器版。打字速度快上加快、拖拽传图、快速发送文件、大屏阅读，开始享受“边上网边聊微信”的畅快之旅吧！",
+   "extension_dll": "wechat.dll",
+   "homepage_url": "http://weixin.qq.com/",
+   "icons": {
+      "128": "images/128x128.png",
+      "16": "images/16x16.png",
+      "32": "images/32x32.png",
+      "48": "images/48x48.png",
+      "64": "images/64x64.png"
+   },
+   "is_account_related": true,
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA0ilKvjRNiEHwDLADYXJ3ouBiL2otw+QPBXSxsm8bWlMxuzdEZe/1lOble+gF1KFLxuPfTxEHljh5Jmoh9Qyp4U0er/xDOuNcXOcQyEj9Sqki75kiVaSliC54qMOqs5JC8+L+M25BYggh2QLKTAj/t0yrd6t8D8QXYnoNDY8TUufuw//VMPNyqz8clZXWVVLdcKxudtPQsn0TtAQkYLEGoR5MtTYCOa+/IY2O1OFVXBLJPt5qXyK2ODeZ8mvHB2E/cseHBsNSuK9T6Lhf6cY8tH5UVV39SOU0pCXuZZdbkwwUD1dgvdDFXCltT0BNHJg4oNXocOGdsPTbiQvFroCEIQIDAQAB",
+   "lazy_load_extension_dll": true,
+   "manifest_version": 2,
+   "minimum_qb_version": "9.0.2399",
+   "name": "微信",
+   "permissions": [ "tabs" ],
+   "show_position": 2,
+   "version": "9.7.0.266"
+}
